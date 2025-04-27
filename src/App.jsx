@@ -14,7 +14,6 @@ import PPh15Calculator from '@/modules/company/components/calculators/PPh15Calcu
 import PPh23IndividualCalculator from '@/modules/individual/components/calculators/PPh23IndividualCalculator';
 import PPh17Calculator from '@/modules/individual/components/calculators/PPh17Calculator';
 import PPh17NPPNCalculator from '@/modules/individual/components/calculators/PPh17NPPNCalculator';
-import ZaptBadge from '@/modules/core/components/ui/ZaptBadge';
 
 export default function App() {
   return (
@@ -39,7 +38,6 @@ export default function App() {
           <Route path="/individual/pph17" element={<PPh17Calculator />} />
           <Route path="/individual/pph17nppn" element={<PPh17NPPNCalculator />} />
         </Routes>
-        <ZaptBadge />
       </MainLayout>
     </Router>
   );

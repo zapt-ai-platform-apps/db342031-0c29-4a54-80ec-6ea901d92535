@@ -1,4 +1,4 @@
-# Pajak ku assisten pajakku
+# assisten pajakku
 
 Aplikasi alat penghitung pajak otomatis untuk perusahaan (badan) dan orang pribadi di Indonesia.
 

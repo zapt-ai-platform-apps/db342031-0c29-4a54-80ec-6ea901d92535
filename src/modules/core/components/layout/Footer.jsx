@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-lg font-semibold text-white">Pajak ku assisten pajakku</h3>
+            <h3 className="text-lg font-semibold text-white">assisten pajakku</h3>
             <p className="text-gray-400 text-sm mt-1">
               Alat penghitung pajak otomatis untuk Indonesia
             </p>
@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div className="text-sm text-gray-400">
             <div className="flex flex-col md:flex-row md:space-x-4">
-              <p>© {currentYear} Pajak ku assisten pajakku</p>
+              <p>© {currentYear} assisten pajakku</p>
               <p>
                 <span className="hidden md:inline">|</span> Dibuat dengan <span className="text-red-500">♥</span> di Indonesia
               </p>

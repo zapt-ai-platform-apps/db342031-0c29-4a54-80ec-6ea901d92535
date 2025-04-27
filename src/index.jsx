@@ -19,8 +19,8 @@ Sentry.init({
 window.progressierAppRuntimeSettings = {
   uid: import.meta.env.VITE_PUBLIC_APP_ID,
   icon512: "https://supabase.zapt.ai/storage/v1/render/image/public/icons/db342031-0c29-4a54-80ec-6ea901d92535/164b2656-d33e-439d-856b-0b7618a228d8.png?width=512&height=512",
-  name: "Pajak ku assisten pajakku",
-  shortName: "Pajak ku ass"
+  name: "assisten pajakku",
+  shortName: "assisten paj"
 };
 
 let progressierScript = document.createElement('script');

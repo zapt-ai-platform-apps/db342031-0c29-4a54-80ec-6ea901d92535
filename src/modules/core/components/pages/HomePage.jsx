@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="max-w-5xl mx-auto">
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-4">Selamat Datang di Pajak ku assisten pajakku</h1>
+        <h1 className="text-4xl font-bold mb-4">Selamat Datang di assisten pajakku</h1>
         <p className="text-xl text-gray-600">
           Alat penghitung pajak otomatis untuk perusahaan dan orang pribadi di Indonesia
         </p>
