@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-import { FiArrowLeft, FiCalculator } from 'react-icons/fi';
+import { FiArrowLeft } from 'react-icons/fi';
+import { MdCalculate } from 'react-icons/md';
 import TaxInfoCard from '@/modules/core/components/ui/TaxInfoCard';
 import ResultCard from '@/modules/core/components/ui/ResultCard';
 import { calculatePPh21, formatCurrencyInput, parseCurrencyInput } from '@/modules/core/utils/taxCalculations';
@@ -115,7 +116,7 @@ const PPh21Calculator = () => {
                 </>
               ) : (
                 <>
-                  <FiCalculator className="mr-2" /> Hitung PPh 21
+                  <MdCalculate className="mr-2" /> Hitung PPh 21
                 </>
               )}
             </button>
